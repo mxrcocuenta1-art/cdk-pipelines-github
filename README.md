@@ -229,7 +229,8 @@ class MyGitHubActionRole extends Stack {
     const provider = new GitHubActionRole(this, 'github-action-role', {
       subjectClaims: [
         'repo:owner/repo1:ref:refs/heads/main',
-        'repo:owner/repo1:environment:prod',
+        'repo:owner/repo1
+:environment:prod',
       ],
     });
   }
